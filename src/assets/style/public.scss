@@ -1,0 +1,76 @@
+.__shadowBox-container {
+  background-color: #fff;
+  border-top: 0.04rem solid #ffffff;
+  border-radius: 0.1rem;
+  // box-shadow: 0rem 0rem 0.02rem 0.1rem rgba(236,240,243,0.2);
+  box-shadow: -2px 0px 5px 0.02rem rgba(236, 240, 243, 0.2),
+    0px -2px 5px 0.02rem rgba(236, 240, 243, 0.2),
+    2px 0px 5px 0.02rem rgba(236, 240, 243, 0.2),
+    0px 2px 5px 0.02rem rgba(236, 240, 243, 0.2);
+}
+
+// Toast样式改写
+.__toast {
+  border-radius: 0.1rem;
+  font-size: 0.32rem;
+  padding: 0.2rem 0.15rem;
+  border-radius: 0.1rem;
+}
+
+// Dialog样式改写
+// .van-dialog {
+//   width: 5.3rem;
+//   border-radius: 0.1rem;
+//   .van-dialog__message {
+//     color: #333333;
+//   }
+//   .van-dialog__footer {
+//     margin: 0.1rem 0.5rem 0.4rem;
+//   }
+//   .van-button {
+//     display: inline-block;
+//     width: 1.8rem;
+//     height: 0.64rem;
+//     line-height: 0.64rem;
+//     border-radius: 0.1rem;
+//     border: solid 0.01rem #d6d6d6;
+//     text-align: center;
+//     background-color: #1979f4;
+//     color: #ffffff;
+//   }
+//   .van-dialog__cancel {
+//     margin-right: 0.5rem;
+//     color: #999999;
+//     background-color: #ffffff;
+//   }
+//   [class*="van-hairline"]::after {
+//     border: none;
+//   }
+// }
+
+@font-face {
+  font-family: "iconfont";
+  /* project id 1800208 */
+  src: url("//at.alicdn.com/t/font_1800208_sf4oksmgmdg.eot");
+  src: url("//at.alicdn.com/t/font_1800208_sf4oksmgmdg.eot?#iefix")
+      format("embedded-opentype"),
+    url("//at.alicdn.com/t/font_1800208_sf4oksmgmdg.woff2") format("woff2"),
+    url("//at.alicdn.com/t/font_1800208_sf4oksmgmdg.woff") format("woff"),
+    url("//at.alicdn.com/t/font_1800208_sf4oksmgmdg.ttf") format("truetype"),
+    url("//at.alicdn.com/t/font_1800208_sf4oksmgmdg.svg#iconfont") format("svg");
+}
+
+.__nopadding {
+  padding: 0;
+}
+
+.__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// 404错误页面的样式
+.__nuxt-error-page .title {
+  font-size: 0.26rem;
+}
