@@ -46,7 +46,7 @@ export default class App extends Vue {
 }
 html,
 body {
-  //选择vm|vh中较小的那个,实现自适应
+  //选择vm|vh中较小的那个,实现自适应.
   font-size: 13.33333333333333vmin;
   width: 100%;
   height: 100%;
